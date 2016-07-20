@@ -21,6 +21,11 @@
   color: #000;
 }
 
+.bottom-align {
+  position: absolute;
+  bottom: 5%;
+}
+
 .yandexmaps-container {
   max-width: none;
   width: 100%;
