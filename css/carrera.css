@@ -1,3 +1,4 @@
+/* Legacy - not used */
 .padded-multiline { 
   line-height: 1.3; 
   padding: 2px 0; 
@@ -14,6 +15,10 @@
 .padded-multiline p span { 
   position: relative;
   left: -10px; 
+}
+
+.colored-text-blue {
+  color: #08348A;
 }
 
 .yandexmaps-container {
