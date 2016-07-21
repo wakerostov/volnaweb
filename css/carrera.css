@@ -18,11 +18,11 @@
 }
 
 .colored-text-black span {
-  color: #000;
+  color: #000 !important;
 }
 
 .colored-text-white span {
-  color: #fff;
+  color: #fff !important;
 }
 
 .bottom-align {
