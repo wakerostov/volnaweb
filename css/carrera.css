@@ -45,6 +45,7 @@
 .yandexmaps-container {
   max-width: 500px;
   height: 350px;
+  margin: 0 auto;
 }
 
 .tg {
