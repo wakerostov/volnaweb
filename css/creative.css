@@ -160,14 +160,14 @@ header {
   color: white;
 }
 @media (min-width: 1400px) {
-    header .header-background {
-      background-image: url('../img/header.jpg');
-	}
+  header {
+    background-image: url('../img/header.jpg');
+  }
 }
 @media (min-width: 1000px) {
-    header .header-background {
-      background-image: url('../img/header_1343.jpg');
-	}
+  header {
+    background-image: url('../img/header_1343.jpg');
+  }
 }
 header .header-content {
   position: relative;
