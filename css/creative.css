@@ -158,20 +158,16 @@ header {
   background-position: center;
   text-align: center;
   color: white;
+  background-image: url('../img/header_empty.jpg');
 }
-@media (max-width: 999px) {
+@media (min-width: 1000px) {
   header {
-    background-image: url('../img/header_empty.jpg');
-  }
-}
-@media (max-width: 1399px) {
-  header {
-    background-image: url('../img/header_1343.jpg');
+    background-image: url('../img/header_1343.jpg') !important;
   }
 }
 @media (min-width: 1400px) {
   header {
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header.jpg') !important;
   }
 }
 header .header-content {
