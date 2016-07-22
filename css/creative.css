@@ -159,19 +159,19 @@ header {
   text-align: center;
   color: white;
 }
-@media (min-width: 1400px) {
+@media (max-width: 999px) {
   header {
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header_empty.jpg');
   }
 }
-@media (min-width: 1000px) {
+@media (max-width: 1399px) {
   header {
     background-image: url('../img/header_1343.jpg');
   }
 }
-@media (max-width: 999px) {
+@media (min-width: 1400px) {
   header {
-    background-image: url('../img/header_empty.jpg');
+    background-image: url('../img/header.jpg');
   }
 }
 header .header-content {
