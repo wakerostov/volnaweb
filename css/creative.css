@@ -169,6 +169,11 @@ header {
     background-image: url('../img/header_1343.jpg');
   }
 }
+@media (max-width: 999px) {
+  header {
+    background-image: url('../img/header_empty.jpg');
+  }
+}
 header .header-content {
   position: relative;
   text-align: center;
