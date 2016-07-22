@@ -31,6 +31,10 @@
   color: #000 !important;
 }
 
+.colored-text-black span {
+  color: #000 !important;
+}
+
 .colored-text-white span {
   color: #fff !important;
 }
