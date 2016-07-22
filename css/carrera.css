@@ -17,6 +17,11 @@
   left: -10px; 
 }
 
+.logo-responsive img {
+  max-width: 100%;
+  height: auto;
+}
+
 .colored-text-black span {
   color: #000 !important;
 }
