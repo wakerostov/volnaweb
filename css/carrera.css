@@ -45,6 +45,15 @@
   left: 50%;
   transform: translateX(-50%);
 }
+@media (max-height: 730px) {
+  .bottom-align {
+    bottom: 2% !important;
+  }
+  
+  header .header-content .header-content-inner hr {
+    margin: 10px auto !important;
+  }
+}
 
 .yandexmaps-container {
   max-width: 500px;
