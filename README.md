@@ -17,3 +17,6 @@ http://www.tablesgenerator.com/
 
 Yandex Maps API:
 https://tech.yandex.ru/maps/tools/constructor/
+
+YUI Compressor:
+http://yui.github.io/yuicompressor/
