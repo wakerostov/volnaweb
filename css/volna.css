@@ -61,6 +61,12 @@
   margin: 0 auto;
 }
 
+.gcalendar-container {
+  max-width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
