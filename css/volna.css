@@ -130,3 +130,12 @@
 .thumb {
     margin-bottom: 30px;
 }
+
+/* Ordered list style */
+.rules-list {
+    display: inline-block;
+    text-align: left;
+	max-width: 600px;
+}
+.rules-list li {
+}
