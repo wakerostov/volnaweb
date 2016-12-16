@@ -151,3 +151,8 @@
   -o-user-select: none;
   user-select: none;
 }
+
+.padding-onlybottom {
+    padding: 0px;
+    padding-bottom: 100px;
+}
