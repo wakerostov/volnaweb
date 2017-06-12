@@ -121,7 +121,9 @@
                     </span>
                     </p>
                 </div>
-                <h2 class="colored-text-black-phone">+7 928 774-67-67</h2>
+                <h2 class="colored-text-black-phone">
+                    <a href="tel:+79287746767" title="Позвоните нам!">+7 928 774-67-67</a>
+                </h2>
             </div>
         </div>
         <div class="bottom-align">
@@ -458,7 +460,9 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>+7 928 774-67-67</p>
+                    <p>
+                        <a href="tel:+79287746767" title="Позвоните нам!">+7 928 774-67-67</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -517,6 +521,16 @@
 
     ga('create', 'UA-81618753-2', 'auto');
     ga('send', 'pageview');
+    </script>
+    
+    <script>
+    var isFirefox = (navigator.userAgent.toLowerCase().indexOf('firefox') > -1);
+    var isMobile = (typeof window.orientation !== "undefined") ||
+                   (navigator.userAgent.indexOf('IEMobile') !== -1);
+
+    if(isFirefox && !isMobile) {
+        $('a[href^="tel:"]').click(function() { return false; });
+    }
     </script>
 
 </body>
